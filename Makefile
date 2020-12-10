@@ -12,7 +12,7 @@ JANSSONDIR       = jansson-master
 LIBEVENTDIR      = libevent-master
 LIBSEARPCDIR     = libsearpc-master
 SEAFILEDIR       = seafile-master
-SEAFILECLIENTDIR = seafile-client-master-9acf4c55b923f3a80029f6c8613a5a9ffea0a141
+SEAFILECLIENTDIR = seafile-client-master
 
 ifeq ($(HOST_OS), MINGW32)
 HOST = i686-w64-mingw32
@@ -65,7 +65,7 @@ fetch:
 	wget -q -O $(LIBEVENTDIR).zip https://github.com/libevent/libevent/archive/master.zip;\
 	wget -q -O $(LIBSEARPCDIR).zip https://github.com/haiwen/libsearpc/archive/master.zip;\
 	wget -q -O $(SEAFILEDIR).zip https://github.com/xnervwang/seafile/archive/master.zip;\
-	wget -q -O $(SEAFILECLIENTDIR).zip http://172.30.44.168/DesktopSV3.1/seafile-client/repository/archive.zip?ref=zhouy-newupdate-dev
+	wget -q -O $(SEAFILECLIENTDIR).zip https://github.com/csyangzhou/seafile-client/archive/master.zip
 
 extract:
 	rm -rf $(JANSSONDIR);\
