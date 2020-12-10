@@ -12,7 +12,7 @@ JANSSONDIR       = jansson-master
 LIBEVENTDIR      = libevent-master
 LIBSEARPCDIR     = libsearpc-master
 SEAFILEDIR       = seafile-master
-SEAFILECLIENTDIR = seafile-client-master
+SEAFILECLIENTDIR = seafile-client-master-9acf4c55b923f3a80029f6c8613a5a9ffea0a141
 
 ifeq ($(HOST_OS), MINGW32)
 HOST = i686-w64-mingw32
