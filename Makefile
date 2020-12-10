@@ -65,7 +65,7 @@ fetch:
 	wget -q -O $(LIBEVENTDIR).zip https://github.com/libevent/libevent/archive/master.zip;\
 	wget -q -O $(LIBSEARPCDIR).zip https://github.com/haiwen/libsearpc/archive/master.zip;\
 	wget -q -O $(SEAFILEDIR).zip https://github.com/xnervwang/seafile/archive/master.zip;\
-	wget -q -O $(SEAFILECLIENTDIR).zip https://github.com/xnervwang/seafile-client/archive/master.zip
+	wget -q -O $(SEAFILECLIENTDIR).zip http://172.30.44.168/DesktopSV3.1/seafile-client/repository/archive.zip?ref=zhouy-newupdate-dev
 
 extract:
 	rm -rf $(JANSSONDIR);\
