@@ -1,4 +1,5 @@
 #!/usr/bin/python2.7
+# -*- coding: UTF-8 -*-
 
 from sets import Set
 import os
