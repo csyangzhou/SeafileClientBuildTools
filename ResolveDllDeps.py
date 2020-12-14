@@ -30,7 +30,7 @@ get_dep_cmd = "{mingw}/bin/objdump -p {{dll}}  | grep 'DLL Name' | sed 's/DLL Na
 get_path_cmd = 'find {mingw} {build} {pwd} -name {{dll}}'.format(mingw = mingw_path, build = build_path, pwd = os.path.dirname(os.path.realpath(__file__)))
 
 dlls = {
-        build_path + "电子文档共享平台.exe": "电子文档共享平台.exe",
+        build_path + "seafile-applet.exe": "seafile-applet.exe",
         build_path + "seaf-daemon.exe": "seaf-daemon.exe",
         mingw_path + "sys-root/mingw/lib/qt5/plugins/imageformats/qgif.dll": "imageformats/qgif.dll",
         mingw_path + "sys-root/mingw/lib/qt5/plugins/imageformats/qico.dll": "imageformats/qico.dll",
